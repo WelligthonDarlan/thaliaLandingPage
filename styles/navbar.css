@@ -1,0 +1,36 @@
+nav{
+    width: 100%;
+    padding: 10px 100px;
+    height: 100px;
+    background-color: #ffffff;
+    font-family: "Raleway", serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 2px 2px #00000044;
+    position: fixed;
+    z-index: 100;
+}
+nav img{
+    height: 100%;
+    opacity: 0.8;
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+nav button{
+    background-color: #00000000;
+    color: #000000ee;
+    font-size: 1.093rem;
+    border: 0px solid rgb(9, 9, 9);
+    font-weight: 500;
+    transition: 0.5s;
+}
+nav button:hover{
+    cursor: pointer;
+    color: #2f15c1ee;
+    transform: translateY(-2px);
+}

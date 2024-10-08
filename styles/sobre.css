@@ -1,0 +1,36 @@
+.sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    padding: 80px 180px 80px 180px;
+    border: 2px solid red;
+    width: 100%;
+    height: 80vh;
+}
+.sobre .container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.sobre .container p{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.containerImg{
+    border: 2px solid rgb(48, 173, 37);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+}
+.containerImg img{
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: -2px 2px 4px 4px #00000022;
+}
