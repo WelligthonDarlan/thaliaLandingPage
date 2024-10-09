@@ -1,0 +1,43 @@
+.atendimento {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.atendimento h1 {
+  font-size: 70px;
+  opacity: 0.8;
+  padding: 50px 0px;
+  letter-spacing: 30px;
+}
+.atendimento .containerCard {
+  background-color: #3f63ad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 100px;
+  width: 100%;
+}
+.cardL {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
+  padding: 40px;
+}
+.cardR {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
+  padding: 40px;
+}
