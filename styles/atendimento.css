@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .atendimento h1 {
-  font-size: 70px;
+  font-size: 60px;
   opacity: 0.8;
   padding: 50px 0px;
   letter-spacing: 30px;
@@ -15,10 +15,10 @@
   background-color: #3f63ad;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   gap: 40px;
-  padding: 100px;
+  padding: 140px 100px 80px 100px;
   width: 100%;
 }
 .cardL {
@@ -26,18 +26,127 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   width: 300px;
   height: 400px;
-  padding: 40px;
+  padding: 20px;
+  box-shadow: -4px 4px 5px 2px #00000044;
 }
 .cardR {
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   width: 300px;
   height: 400px;
-  padding: 40px;
+  padding: 20px;
+  box-shadow: -4px 4px 5px 2px #00000044;
+}
+.atendimento .containerCard img{
+  transform: translateY(-100px);
+  box-shadow: -4px 4px 5px 2px #00000044;
+}
+.cardLInfo{
+  height: 200px !important;
+  /* border: 2px solid red; */
+  text-align: center;
+  transform: translateY(-50px);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.cardRInfo{
+  height: 200px !important;
+  /* border: 2px solid red; */
+  text-align: center;
+  transform: translateY(-50px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.atendimento .containerCard h2{
+  font-family: "Raleway", serif;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+.cardRInfo p{
+  font-size: 16px;
+  font-family: "Raleway", serif;
+}
+.cardLInfo p{
+  font-size: 16px;
+  font-family: "Raleway", serif;
+}
+/* ======================== btn ============================ */
+.containerBtnAtt{
+  padding: 0;
+}
+.btnAgendar {
+  position: relative;
+  padding: 20px 50px;
+  color: #00000099;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 1.5em;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btnAgendar:hover {
+  border: 2px solid #00000099
+}
+
+.btnAgendar::before {
+  content: '';
+  position: absolute;
+  inset: 0 8px;
+  border-left: 2px solid #00000099;
+  border-right: 2px solid #00000099;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btnAgendar::after {
+  content: '';
+  position: absolute;
+  inset: 8px 0;
+  border-top: 2px solid #00000099;
+  border-bottom: 2px solid #00000099;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btnAgendar:hover::before {
+  inset: 0px -12px;
+  transform: skewY(15deg);
+  -webkit-transform: skewY(15deg);
+  -moz-transform: skewY(15deg);
+  -ms-transform: skewY(15deg);
+  -o-transform: skewY(15deg);
+}
+
+.btnAgendar:hover::after {
+  inset: -12px 0px;
+  transform: skewX(15deg);
+  -webkit-transform: skewX(15deg);
+  -moz-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  -o-transform: skewX(15deg);
 }

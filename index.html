@@ -19,12 +19,12 @@
 
   <body>
     <nav>
-      <img src="./img/logo-navbar.png" alt="" />
+      <img src="./img/logo-navbar-2.png" alt="" />
       <div>
-        <button>Home</button>
-        <button>Nosso Método</button>
-        <button>Currículo e Especialidades</button>
-        <button>Nosso Atendimento</button>
+        <button>Inicio</button>
+        <button>Serviços</button>
+        <button>Especialidades</button>
+        <button>Atendimento</button>
         <button>Blog</button>
       </div>
     </nav>
@@ -37,14 +37,19 @@
           <a href=""><button>AGENDE SUA CONSULTA</button></a>
         </div>
         <div class="containerR">
-          <img src="./img/photo-thalia-principal-banner.png" alt="" srcset="" />
-          <p>Drª Thalia Bianchini - Médica Psiquiatra</p>
+          <div>
+            <p class="namePrincipalBanner"><b>- Thalia Bianchini -</b></p>
+            <p>Neuropsicopedagoga -</p>
+            <p>Neuropsicóloga -</p>
+            <p>Psicóloga -</p>
+          </div>
+          <img src="./img/photo-thalia-principal-banner.png" alt="" />
         </div>
       </div>
     </section>
 
     <section class="specialties">
-      <h1>ESPECIALIDADES</h1>
+      <h1>SERVIÇOS</h1>
       <p>
         Dra. Isadora Valente é especialista em diagnóstico e tratamento dos <span>transtornos psiquiátricos.</span> Comprometendo-se a cuidar da sua
         saúde emocional e ajudá-lo(a) a alcançar o <span>equilíbrio emocional</span> que você merece. Com uma abordagem <span>personalizada</span> e
@@ -94,13 +99,14 @@
 
     <hr />
 
+    <h1 class="titleEspecialidades">ESPECIALIDADES</h1>
     <section class="sobre">
       <div class="container">
-        <div>
-          <h1>DRª THALIA</h1>
+        <div class="title">
+          <h1>THALIA <span>Ψ</span></h1>
           <h1>BIANCHINI</h1>
         </div>
-        <p class="crm">CRM PR - 40.232 / CRM SC - 33.278 / RQE 32182</p>
+        <p class="crm">CRP: 12/24933</p>
         <p>
           &emsp;Médica pela Universidade Federal do Ceará e Psiquiatra pela Universidade Estadual de Londrina, possui vasta experiência, no tratamento
           de diversos transtornos como:
@@ -122,28 +128,72 @@
       </div>
     </section>
 
-    <hr />
+    <!-- <hr /> -->
 
     <section class="atendimento">
       <h1>ATENDIMENTO</h1>
       <div class="containerCard">
+
         <div class="cardL">
           <img src="./img/presencial-att.webp" alt="" srcset="" />
-          <h2>Atendimento presencial nas cidades de:</h2>
-          <p>Florianópolis - SC</p>
-          <p>São José - SC</p>
-          <p>Palhoça - SC</p>
-          <a href=""><button>AGENDE SUA CONSULTA</button></a>
+          <div class="cardLInfo">
+            <h2>Atendimento presencial nas cidades de:</h2>
+            <p>Florianópolis - SC</p>
+            <p>São José - SC</p>
+            <p>Palhoça - SC</p>
+          </div>
+          <div class="containerBtnAtt">
+            <a href="" class="btnAgendar">AGENDAR</a>
+          </div>
         </div>
+
         <div class="cardR">
           <img src="./img/online-att.webp" alt="" />
-          <h2>Online -Telemedicina</h2>
-          <p>Atendimento online para todo o Brasil através da Telemedicina.</p>
-          <a href=""><button>AGENDE SUA CONSULTA</button></a>
+          <div class="cardRInfo">
+            <h2>Online -Telemedicina</h2>
+            <p>Atendimento online para todo o Brasil através da Telemedicina.</p>
+          </div>
+          <div class="containerBtnAtt">
+            <a href="" class="btnAgendar">AGENDAR</a></div>
         </div>
+
       </div>
     </section>
 
-    <section class="contato"></section>
+    <section class="contato">
+      <div class="containerCont">
+        <div class="cardCont">
+          <img src="./img/address.svg" alt="">
+          <h2>Endereços</h2>
+          <p>Florianópolis - SC</p>
+          <p>São José - SC</p>
+          <p>Palhoça - SC</p>
+        </div>
+        <div class="cardCont">
+          <img src="./img/whatsapp.svg" alt="">
+          <h2>WhatsApp</h2>
+          <p>55 9735-6804</p>
+        </div>
+        <div class="cardCont">
+          <img src="./img/envelope.svg" alt="">
+          <h2>Email</h2>
+          <p>thalia_bianchini@gmail.com</p>
+
+        </div>
+        <div class="cardCont">
+          <img src="./img/person.svg" alt="">
+          <h2>Redes</h2>
+          <div>
+            <img src="./img/linkedin.svg" alt="" srcset="">
+            <img src="./img/instagram.svg" alt="" srcset="">
+          </div>
+
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Welligthon Darlan.</p>
+      </div>
+    </section>
+
   </body>
 </html>

@@ -2,6 +2,15 @@ hr {
   margin: 50px;
   opacity: 0.8;
 }
+.titleEspecialidades{
+  width: 100%;
+  text-align: center;
+    font-size: 60px;
+    opacity: 0.8;
+    padding: 10px 0px 50px;
+    letter-spacing: 30px;
+
+}
 .sobre {
   display: flex;
   flex-direction: row;
@@ -11,6 +20,10 @@ hr {
   /* border: 2px solid red; */
   width: 100%;
   height: 80vh;
+  background-image: url('../img/wallpaper5.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .sobre .container {
   /* border: 2px solid red; */
@@ -21,6 +34,16 @@ hr {
   justify-content: start;
   gap: 20px;
   height: 100%;
+}
+.sobre .container .title{
+  background-image: linear-gradient( to right, #81A4EB,#4367ae);
+  padding: 20px 200px 20px 20px;
+  color: #fff;
+}
+.sobre .container .title span{
+  font-family: "Raleway", serif;
+  font-size: 50px;
+  font-weight: 500;
 }
 .sobre .container h1 {
   font-size: 50px;
@@ -35,6 +58,8 @@ hr {
   align-items: start;
   justify-content: space-between;
   font-size: 18px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #00000099;
 }
 .crm {
   font-family: "Times New Roman", Times, serif !important;
