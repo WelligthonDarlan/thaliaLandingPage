@@ -56,7 +56,7 @@
     font-family: "Raleway", serif;
     background-repeat: no-repeat;
      background-size: cover;
-    cursor: grab;
+    /* cursor: grab; */
   }
   .carousel__cell:hover{
     opacity: 1;
