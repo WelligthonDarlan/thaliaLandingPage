@@ -21,15 +21,16 @@ nav div{
     flex-direction: row;
     gap: 30px;
 }
-nav button{
+nav a{
     background-color: #00000000;
     color: #000000ee;
     font-size: 1.093rem;
     border: 0px solid rgb(9, 9, 9);
     font-weight: 500;
-    transition: 0.5s;
+    transition: 0.3s;
+    text-decoration: none;
 }
-nav button:hover{
+nav a:hover{
     cursor: pointer;
     color: #2f15c1ee;
     transform: translateY(-2px);

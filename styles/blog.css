@@ -1,0 +1,121 @@
+a{
+    text-decoration: none;
+    color: inherit;        /* Mantém a cor do texto atual */
+}
+#containerBlog{
+    background-image: linear-gradient( to right, #81A4EB,#4367ae);
+    width: 100%;
+    height: 100%;
+    padding: 110px 25% 0px 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", serif;
+    
+}
+.contentBlog{
+    background-color: #fff;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+}
+.cardBlog{
+    border: 1px solid #00000044;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cardBlog:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 4px 4px #00000055;
+}
+.containerProfile{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.imageProfile{
+    width: 40px;
+    /* border: 2px solid red; */
+
+}
+.containerName{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    text-align: end;
+}
+.name{
+ font-size: 16px;
+}
+.date{
+    font-size: 11px;
+    opacity: 0.5;
+
+}
+.containerContent{
+    /* border: 2px solid red; */
+    padding: 5px 10px;
+}
+.title{
+    opacity: 0.8;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.resume{
+ text-align: justify;
+}
+hr{
+    opacity: 0.5;
+}
+.containerInteraction{
+    /* border: 2px solid red; */
+ padding: 10px 10px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+.views{
+
+}
+.btnLike{
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnLike img{
+    width: 20px;
+    cursor: pointer;
+}
+.imageCard{
+    width: 100%;
+    height: 300px;
+}
+
+.copyright{
+    width: 100%;
+    height: 32px;
+    background-color: #232323;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

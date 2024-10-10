@@ -43,6 +43,14 @@
   flex-direction: row;
   gap: 20px;
 }
+.linksContainer img{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.linksContainer img:hover{
+  opacity: 1;
+
+}
 .copyright{
   background-color: #1c2434;
   color: #fff;

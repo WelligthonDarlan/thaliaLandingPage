@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/t-logo.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
@@ -14,23 +15,23 @@
     <link rel="stylesheet" href="./styles/atendimento.css" />
     <link rel="stylesheet" href="./styles/contato.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./img/t-logo.ico" type="image/x-icon" />
     <title>Thalia Bianchini</title>
   </head>
 
   <body>
     <nav>
-      <img src="./img/logo-navbar-2.png" alt="" />
+      <img src="./img/logo-navbar-2.png" alt="Logo" />
       <div>
-        <button>Inicio</button>
-        <button>Serviços</button>
-        <button>Especialidades</button>
-        <button>Atendimento</button>
-        <button>Blog</button>
+        <a data-target="home">Início</a>
+        <a data-target="servicos">Serviços</a>
+        <a data-target="especialidades">Especialidades</a>
+        <a data-target="atendimento">Atendimento</a>
+        <a href="./blog.html">Blog</a>
+        <a data-target="home" id="up"><img src="./img/up.png" alt="" srcset=""></a>
       </div>
     </nav>
 
-    <section class="principalBanner">
+    <section class="principalBanner" id="home">
       <div class="mainContainer">
         <div class="containerL">
           <h1><span>cuidando</span> da sua <span>saúde </span>mental</h1>
@@ -51,14 +52,14 @@
 
     
     
-    <section class="specialties">
+    <section class="specialties" id="servicos">
 
       <h1>SERVIÇOS</h1>
       <p class="descriptionServ">
-        Dra. Isadora Valente é especialista em diagnóstico e tratamento dos <span>transtornos psiquiátricos.</span> Comprometendo-se a cuidar da sua
-        saúde emocional e ajudá-lo(a) a alcançar o <span>equilíbrio emocional</span> que você merece. Com uma abordagem <span>personalizada</span> e
-        atendimento <span>individualizado</span> e <span>humanizado</span>, trabalhamos juntos para entender suas dificuldades emocionais e encontrar
-        o tratamento mais adequado para você.
+        <b>Psicóloga</b>, atuando com atendimento especializado em <b>ABA</b> (análise do comportamento aplicada) ao Transtorno do Espectro Autista (TEA), com foco em intervenção comportamental, avaliação <b>neuropsicológica</b> e apoio educacional. 
+Avaliação diagnóstica (TEA, TDAH e DI) e de habilidades através dos protocolos VB-MAPP, ABLLS e AFLS.
+Certificação internacional em Gerenciamento de crises - PCM pela link comportamental; treinamento e supervisão de equipes. 
+Orientações parentais e educacionais. 
       </p>
       <div class="scene">
         <div class="carousel">
@@ -86,7 +87,7 @@
     <hr />
 
     <h1 class="titleEspecialidades">ESPECIALIDADES</h1>
-    <section class="sobre">
+    <section class="sobre" id="especialidades">
       <div class="container">
         <div class="title">
           <h1>THALIA <span>Ψ</span></h1>
@@ -94,19 +95,15 @@
         </div>
         <p class="crm">CRP: 12/24933</p>
         <p>
-          &emsp;Médica pela Universidade Federal do Ceará e Psiquiatra pela Universidade Estadual de Londrina, possui vasta experiência, no tratamento
-          de diversos transtornos como:
+          &emsp;Psicóloga, atuando com atendimento especializado em ABA (análise do comportamento aplicada) ao Transtorno do Espectro Autista (TEA), com foco em:
         </p>
         <div class="containerP">
-          <p>● Depressão</p>
-          <p>● Ansiedade</p>
-          <p>● TDAH</p>
-          <p>● Transtornos alimentares</p>
-          <p>● TOC</p>
-          <p>● Vícios em álcool, tabaco e drogas</p>
-          <p>● Bipolaridade</p>
-          <p>● Transtornos de Borderline</p>
-          <p>● Entre outros</p>
+          <p>● Intervenção comportamental</p>
+          <p>● Avaliação neuropsicológica e apoio educacional</p>
+          <p>● Avaliação diagnóstica (TEA, TDAH e DI)</p>
+          <p>● Avaliação de habilidades através dos protocolos VB-MAPP, ABLLS e AFLS</p>
+          <p>● Certificação internacional em Gerenciamento de crises - PCM pela link comportamental; treinamento e supervisão de equipes. </p>
+          <p>● Orientações parentais e educacionais.</p>
         </div>
       </div>
       <div class="containerImg">
@@ -116,7 +113,7 @@
 
     <!-- <hr /> -->
 
-    <section class="atendimento">
+    <section class="atendimento" id="atendimento">
       <h1>ATENDIMENTO</h1>
       <div class="containerCard">
 
@@ -169,9 +166,13 @@
         <div class="cardCont">
           <img src="./img/person.svg" alt="">
           <h2>Redes</h2>
-          <div>
-            <img src="./img/linkedin.svg" alt="" srcset="">
-            <img src="./img/instagram.svg" alt="" srcset="">
+          <div class="linksContainer">
+            <a href="https://www.linkedin.com/in/thalia-bianchini-2318b1281/?originalSubdomain=br">
+              <img src="./img/linkedin.svg" alt="" srcset="">
+            </a>
+            <a href="https://www.instagram.com/psithaliab/" target="_blank">
+              <img src="./img/instagram.svg" alt="" srcset="">
+            </a>
           </div>
 
         </div>
@@ -180,6 +181,8 @@
         <p>Copyright © Welligthon Darlan.</p>
       </div>
     </section>
-    <script src="./script.js"></script>
+
+    <script src="./carrousel.js"></script>
+    <script src="./navbar.js"></script>
   </body>
 </html>
