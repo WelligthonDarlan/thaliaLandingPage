@@ -2,15 +2,17 @@ hr {
   margin: 50px;
   opacity: 0.8;
 }
-.titleEspecialidades{
+
+.titleEspecialidades {
   width: 100%;
   text-align: center;
-    font-size: 60px;
-    opacity: 0.8;
-    padding: 10px 0px 50px;
-    letter-spacing: 30px;
+  font-size: 60px;
+  opacity: 0.8;
+  padding: 10px 0px 50px;
+  letter-spacing: 30px;
 
 }
+
 .sobre {
   display: flex;
   flex-direction: row;
@@ -20,11 +22,12 @@ hr {
   /* border: 2px solid red; */
   width: 100%;
   height: 80vh;
-  background-image: url('../img/wallpaper5.jpg') ;
+  background-image: url('../img/wallpaper5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+
 .sobre .container {
   /* border: 2px solid red; */
   width: 50%;
@@ -35,22 +38,26 @@ hr {
   gap: 20px;
   height: 100%;
 }
-.sobre .container .title{
-  background-image: linear-gradient( to right, #81A4EB,#4367ae);
+
+.sobre .container .title {
+  background-image: linear-gradient(to right, #81A4EB, #4367ae);
   padding: 20px 200px 20px 20px;
   color: #fff;
 }
-.sobre .container .title span{
+
+.sobre .container .title span {
   font-family: "Raleway", serif;
   font-size: 50px;
   font-weight: 500;
 }
+
 .sobre .container h1 {
   font-size: 50px;
   font-family: "Raleway", serif;
   letter-spacing: 5px;
   opacity: 0.8;
 }
+
 .sobre .container p {
   font-family: "Raleway", serif;
   display: flex;
@@ -61,16 +68,19 @@ hr {
   color: #fff;
   text-shadow: 2px 2px 2px #00000099;
 }
+
 .crm {
   font-family: "Times New Roman", Times, serif !important;
   font-weight: 900;
 }
+
 .containerP {
   margin-left: 40px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 .containerImg {
   /* border: 2px solid rgb(48, 173, 37); */
   display: flex;
@@ -79,8 +89,455 @@ hr {
   width: 50%;
   height: 100%;
 }
+
 .containerImg img {
   height: 100%;
   border-radius: 3px;
   box-shadow: -4px 4px 5px 2px #00000044;
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+  hr {
+    margin: 30px;
+  }
+
+  .titleEspecialidades {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0px 50px;
+    letter-spacing: 10px;
+  }
+
+  .sobre {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 40px 10px 40px 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sobre .container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .sobre .container .title {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sobre .container h1 {
+    /* border: 2px solid rgb(0, 51, 128); */
+    font-size: 1.4rem;
+    letter-spacing: 10px;
+  }
+  .sobre .container p {
+    font-size: 14px;
+    text-shadow: 1px 1px 2px #000000;
+  }
+
+  .containerP {
+    /* border: 2px solid rgb(0, 102, 128); */
+    margin-left: 0px;
+  }
+
+  .containerImg {
+    /* border: 2px solid rgb(48, 173, 37); */
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+  }
+
+  #photoThalia {
+    width: 100%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+  hr {
+    margin: 30px;
+  }
+
+  .titleEspecialidades {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0px 50px;
+    letter-spacing: 10px;
+  }
+
+  .sobre {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 40px 10px 40px 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sobre .container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .sobre .container .title {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sobre .container h1 {
+    /* border: 2px solid rgb(0, 51, 128); */
+    font-size: 1.4rem;
+    letter-spacing: 10px;
+  }
+  .sobre .container p {
+    font-size: 14px;
+    text-shadow: 1px 1px 2px #000000;
+  }
+
+  .containerP {
+    /* border: 2px solid rgb(0, 102, 128); */
+    margin-left: 0px;
+  }
+
+  .containerImg {
+    /* border: 2px solid rgb(48, 173, 37); */
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+  }
+
+  #photoThalia {
+    width: 100%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 390px) {
+  hr {
+    margin: 30px;
+  }
+
+  .titleEspecialidades {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0px 50px;
+    letter-spacing: 10px;
+  }
+
+  .sobre {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 40px 10px 40px 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sobre .container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .sobre .container .title {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sobre .container h1 {
+    /* border: 2px solid rgb(0, 51, 128); */
+    font-size: 1.4rem;
+    letter-spacing: 10px;
+  }
+  .sobre .container p {
+    font-size: 14px;
+    text-shadow: 1px 1px 2px #000000;
+  }
+
+  .containerP {
+    /* border: 2px solid rgb(0, 102, 128); */
+    margin-left: 0px;
+  }
+
+  .containerImg {
+    /* border: 2px solid rgb(48, 173, 37); */
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+  }
+
+  #photoThalia {
+    width: 100%;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 480px) {
+  hr {
+    margin: 30px;
+  }
+
+  .titleEspecialidades {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0px 50px;
+    letter-spacing: 10px;
+  }
+
+  .sobre {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 80px 15px 80px 15px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sobre .container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .sobre .container .title {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .sobre .container h1 {
+    /* border: 2px solid rgb(0, 51, 128); */
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+
+  .containerP {
+    /* border: 2px solid rgb(0, 102, 128); */
+    margin-left: 0px;
+  }
+
+  .containerImg {
+    /* border: 2px solid rgb(48, 173, 37); */
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+  }
+
+  #photoThalia {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 600px) {
+  hr {
+    margin: 30px;
+  }
+
+  .titleEspecialidades {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0px 50px;
+    letter-spacing: 10px;
+  }
+
+  .sobre {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 80px 15px 80px 15px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sobre .container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .sobre .container .title {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .sobre .container h1 {
+    /* border: 2px solid rgb(0, 51, 128); */
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+
+  .containerP {
+    /* border: 2px solid rgb(0, 102, 128); */
+    margin-left: 0px;
+  }
+
+  .containerImg {
+    /* border: 2px solid rgb(48, 173, 37); */
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+  }
+
+  #photoThalia {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  hr {
+    margin: 30px;
+  }
+
+  .titleEspecialidades {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0px 50px;
+    letter-spacing: 10px;
+  }
+
+  .sobre {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 80px 15px 80px 15px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sobre .container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .sobre .container .title {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .sobre .container h1 {
+    /* border: 2px solid rgb(0, 51, 128); */
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+
+  .containerP {
+    /* border: 2px solid rgb(0, 102, 128); */
+    margin-left: 0px;
+  }
+
+  .containerImg {
+    /* border: 2px solid rgb(48, 173, 37); */
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+  }
+
+  #photoThalia {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  
+  
+  .titleEspecialidades {
+    font-size: 40px;
+  }
+  
+  .sobre {
+    padding: 80px 50px 80px 50px;
+    width: 100%;
+    height: auto  ;
+  }
+  
+  .sobre .container {
+    /* border: 2px solid red; */
+    width: 50%;
+    gap: 20px;
+    height: 100%;
+  }
+  
+  .sobre .container .title span {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  .sobre .container h1 {
+    font-size: 50px;
+    font-family: "Raleway", serif;
+    letter-spacing: 5px;
+    opacity: 0.8;
+  }
+  
+
+  
+  .containerImg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .containerImg img {
+    width: 500px;
+    height: auto;
+  }
 }

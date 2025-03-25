@@ -5,12 +5,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .atendimento h1 {
   font-size: 60px;
   opacity: 0.8;
   padding: 50px 0px;
   letter-spacing: 30px;
 }
+
 .atendimento .containerCard {
   background-color: #3f63ad;
   display: flex;
@@ -21,6 +23,7 @@
   padding: 140px 100px 80px 100px;
   width: 100%;
 }
+
 .cardL {
   background-color: #fff;
   display: flex;
@@ -32,6 +35,7 @@
   padding: 20px;
   box-shadow: -4px 4px 5px 2px #00000044;
 }
+
 .cardR {
   background-color: #fff;
   display: flex;
@@ -43,11 +47,13 @@
   padding: 20px;
   box-shadow: -4px 4px 5px 2px #00000044;
 }
-.atendimento .containerCard img{
+
+.atendimento .containerCard img {
   transform: translateY(-100px);
   box-shadow: -4px 4px 5px 2px #00000044;
 }
-.cardLInfo{
+
+.cardLInfo {
   height: 200px !important;
   /* border: 2px solid red; */
   text-align: center;
@@ -58,7 +64,8 @@
   justify-content: space-between;
   gap: 20px;
 }
-.cardRInfo{
+
+.cardRInfo {
   height: 200px !important;
   /* border: 2px solid red; */
   text-align: center;
@@ -67,7 +74,8 @@
   flex-direction: column;
   gap: 20px;
 }
-.atendimento .containerCard h2{
+
+.atendimento .containerCard h2 {
   font-family: "Raleway", serif;
   opacity: 0.8;
   text-transform: uppercase;
@@ -75,18 +83,22 @@
   width: 100%;
   text-align: center;
 }
-.cardRInfo p{
+
+.cardRInfo p {
   font-size: 16px;
   font-family: "Raleway", serif;
 }
-.cardLInfo p{
+
+.cardLInfo p {
   font-size: 16px;
   font-family: "Raleway", serif;
 }
+
 /* ======================== btn ============================ */
-.containerBtnAtt{
+.containerBtnAtt {
   padding: 0;
 }
+
 .btnAgendar {
   position: relative;
   padding: 20px 50px;
@@ -133,6 +145,7 @@
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
+
 .btnAgendar:hover::before {
   inset: 0px -12px;
   transform: skewY(15deg);
@@ -150,3 +163,172 @@
   -ms-transform: skewX(15deg);
   -o-transform: skewX(15deg);
 }
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .atendimento h1 {
+    font-size: 13px;
+    padding: 50px 0px;
+    letter-spacing: 15px;
+  }
+
+  .atendimento .containerCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 120px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .cardL {
+    width: 100%;
+    height: 380px;
+  }
+
+  .cardR {
+    width: 100%;
+    height: 310px;
+  }
+  .atendimento .containerCard img {
+    width: 150px;
+    transform: translateY(-100px);
+    box-shadow: -4px 4px 5px 2px #00000044;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+  .atendimento h1 {
+    font-size: 13px;
+    padding: 50px 0px;
+    letter-spacing: 15px;
+  }
+
+  .atendimento .containerCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 120px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .cardL {
+    width: 100%;
+    height: 380px;
+  }
+
+  .cardR {
+    width: 100%;
+    height: 310px;
+  }
+  .atendimento .containerCard img {
+    width: 150px;
+    transform: translateY(-100px);
+    box-shadow: -4px 4px 5px 2px #00000044;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 390px) {
+  .atendimento h1 {
+    font-size: 13px;
+    padding: 50px 0px;
+    letter-spacing: 15px;
+  }
+
+  .atendimento .containerCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 120px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .cardL {
+    width: 100%;
+    height: 380px;
+  }
+
+  .cardR {
+    width: 100%;
+    height: 310px;
+  }
+  .atendimento .containerCard img {
+    width: 150px;
+    transform: translateY(-100px);
+    box-shadow: -4px 4px 5px 2px #00000044;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 480px) {
+  .atendimento h1 {
+    font-size: 25px;
+    padding: 50px 0px;
+    letter-spacing: 16px;
+  }
+
+  .atendimento .containerCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 120px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .cardL {
+    width: 90%;
+  }
+
+  .cardR {
+    width: 90%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  .atendimento h1 {
+    font-size: 30px;
+    padding: 50px 0px;
+    letter-spacing: 20px;
+  }
+
+  .atendimento .containerCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 120px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .cardL {
+    width: 90%;
+  }
+
+  .cardR {
+    width: 90%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .atendimento h1 {
+    font-size: 30px;
+    padding: 50px 0px;
+    letter-spacing: 20px;
+  }
+
+  .atendimento .containerCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 120px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .cardL {
+    width: 90%;
+  }
+
+  .cardR {
+    width: 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) {}

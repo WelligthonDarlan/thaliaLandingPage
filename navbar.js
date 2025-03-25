@@ -5,7 +5,7 @@ const offsetHeight = 80;
 const navLinks = document.querySelectorAll('nav a[data-target]');
 
 navLinks.forEach(link => {
-  link.addEventListener('click', function(event) {
+  link.addEventListener('click', function (event) {
     event.preventDefault(); // Impede o comportamento padrão do link
 
     // Obtém o valor do atributo `data-target`
@@ -26,3 +26,20 @@ navLinks.forEach(link => {
     }
   });
 });
+
+// const menuToggle = document.getElementById("menu-toggle");
+// const menuHamburguer = document.getElementById("menu-hamburguer");
+
+
+// menuToggle.addEventListener("click", () => {
+//   menuHamburguer.classList.add("show");
+// });
+
+// menuHamburguer.querySelectorAll("a").forEach(link => {
+//   link.addEventListener("click", () => {
+//     menuHamburguer.classList.remove("show");
+   
+//   });
+// });
+
+
