@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/t-logo.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,29 +11,99 @@
     <link rel="stylesheet" href="./styles/post.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Titulo qualquer</title>
-</head>
-<body>
-    <nav>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-normal">
         <img src="./img/logo-navbar-2.png" alt="Logo" />
         <div>
           <a href="./index.html">Início</a>
           <a href="./blog.html">Blog</a>
         </div>
       </nav>
+      <a data-target="./index.html" id="up">
+        <img src="./img/up.png" alt="" />
+      </a>
+    </header>
 
-      <section id="containerPost">
+    <section id="containerPost">
+      <div class="contentPost">
+        <div class="border">
+          <div class="containerProfile">
+            <img class="imageProfile" src="./img/photo-thalia-principal-banner.png" alt="" />
+            <div class="containerName">
+              <p class="name">Thalia Bianchini</p>
+              <p class="date">6 de mai. de 2023</p>
+            </div>
+          </div>
+          <div class="contentText">
+            <h1>Programação de Reforço para Ensino de Novos Comportamentos Segundo Cooper</h1>
+            <p>
+              A programação de reforço é um dos princípios fundamentais da Análise do Comportamento Aplicada (ABA) para o ensino de novos
+              comportamentos. Segundo Cooper, Heron e Heward (2020), os esquemas de reforço determinam a relação entre respostas e consequências,
+              influenciando a aquisição, manutenção e generalização dos comportamentos-alvo.
+            </p>
 
-        <div class="contentPost">
-            
+            <h2>Tipos de Programação de Reforço</h2>
+            <p>
+              A definição do tipo de reforço utilizado impacta diretamente no sucesso da intervenção. Cooper et al. (2020) classificam os esquemas de
+              reforço em dois principais tipos:
+            </p>
+
+            <h3>Reforço Contínuo</h3>
+            <p>
+              Cada resposta desejada é reforçada. Essa programação é eficaz na aquisição de novos comportamentos, pois estabelece rapidamente a
+              relação entre resposta e consequência.
+            </p>
+
+            <h3>Reforço Intermitente</h3>
+            <p>
+              Nem todas as respostas são reforçadas. Esse tipo de reforço é crucial para a manutenção do comportamento ao longo do tempo e sua
+              resistência à extinção.
+            </p>
+
+            <h2>Esquemas de Reforço Intermitente</h2>
+            <p>Os esquemas de reforço intermitente podem ser divididos em quatro categorias principais (Cooper et al., 2020):</p>
+            <ul>
+              <li><strong>Razão Fixa (RF):</strong> O reforço é entregue após um número predefinido de respostas.</li>
+              <li><strong>Razão Variável (RV):</strong> O reforço ocorre após um número médio de respostas, sendo imprevisível.</li>
+              <li>
+                <strong>Intervalo Fixo (IF):</strong> O reforço é dado após um tempo fixo, desde que haja pelo menos uma resposta correta dentro desse
+                período.
+              </li>
+              <li>
+                <strong>Intervalo Variável (IV):</strong> O reforço é entregue após intervalos de tempo variáveis, mantendo um tempo médio entre
+                reforçadores.
+              </li>
+            </ul>
+
+            <h2>Aplicabilidade na Aquisição de Novos Comportamentos</h2>
+            <p>
+              A escolha adequada do esquema de reforço depende do objetivo da intervenção. O reforço contínuo é ideal para a introdução de novos
+              comportamentos, enquanto os esquemas intermitentes ajudam a consolidar e manter essas respostas ao longo do tempo. Ademais, Cooper et
+              al. (2020) destacam que a transição gradual do reforço contínuo para o intermitente é essencial para evitar a dependência excessiva do
+              reforçador.
+            </p>
+
+            <h2>Considerações Finais</h2>
+            <p>
+              A programação de reforço é um elemento essencial no ensino de novos comportamentos e deve ser planejada com base nos objetivos do
+              aprendizado e nas necessidades do indivíduo. Uma aplicação eficiente pode facilitar significativamente a aquisição e manutenção dos
+              comportamentos desejados.
+            </p>
+
+            <h2>Referência</h2>
+            <p>Cooper, J. O., Heron, T. E., & Heward, W. L. (2020). <em>Applied Behavior Analysis</em> (3rd ed.). Pearson.</p>
+          </div>
+          <div class="postImg-2"></div>
         </div>
-
-      </section>
-    
-
-      <div class="copyright">
-        <p>Copyright © Welligthon Darlan.</p>
       </div>
+    </section>
+
+    <div class="copyright">
+      <p>Copyright © Welligthon Darlan.</p>
+    </div>
 
     <script src="./navbar.js"></script>
-</body>
+  </body>
 </html>

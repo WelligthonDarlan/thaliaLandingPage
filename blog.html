@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/t-logo.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,83 +11,236 @@
     <link rel="stylesheet" href="./styles/blog.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Thalia Bianchini | Blog</title>
-</head>
-<body>
-    <nav class="nav-normal">
-        <img src="./img/logo-navbar-2.png" alt="Logo" class="logo"/>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-normal">
+        <img src="./img/logo-navbar-2.png" alt="Logo" class="logo" />
         <div>
           <a href="./index.html">Início</a>
-          <!-- <a data-target="home" id="up"><img src="./img/up.png" alt="" srcset=""></a> -->
-          <!-- tem que ajustar o id #home -->
         </div>
       </nav>
-      <section id="containerBlog">
+      <a data-target="./index.html" id="up">
+        <img src="./img/up.png" alt="" />
+      </a>
+    </header>
 
-        <div class="contentBlog">
+    <section id="containerBlog">
+      <div class="contentBlog">
+        <!-- <a href=""> -->
+        <a href="./post-1.html" class="cardBlog" aria-label="Ver mais" title="Ver mais">
+          <img class="imageCard" src="./img/blog/blog-card-1.png" alt="" class="imagePrincipal" />
+          <div class="containerInfo">
+            <div class="containerProfile">
+              <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile" />
+              <div class="containerName">
+                <p class="name">Thalia Bianchini</p>
+                <p class="date">6 de abril de 2025</p>
+              </div>
+              <img class="imgageProfile" src="" alt="" />
+            </div>
+            <div class="containerContent">
+              <h1 class="title">Como a Neuropsicopedagogia Atua no Transtorno do Espectro Autista</h1>
+              <p class="resume">
+                &nbsp;&nbsp;A Neuropsicopedagogia desempenha um papel fundamental no desenvolvimento de pessoas com Transtorno do Espectro Autista
+                (TEA), uma condição caracterizada por dificuldades na comunicação, interação social e comportamentos repetitivos. Combinando
+                conhecimentos da neurociência, psicologia e pedagogia, essa abordagem busca adaptar estratégias de ensino às necessidades individuais,
+                promovendo uma aprendizagem mais eficaz e inclusiva.
+              </p>
+            </div>
 
-            <!-- <a href=""> -->
-                <a href="./post-1.html" class="cardBlog">
-                    <img class="imageCard" src="./img/blog/blog-card-1.webp" alt="" class="imagePrincipal">
-                    <div class="containerInfo">
-                        <div class="containerProfile">
-                            <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile">
-                            <div class="containerName">
-                                <p class="name">Thalia Bianchini</p>
-                                <p class="date">6 de mai. de 2023</p>
-                            </div>
-                            <img class="imgageProfile" src="" alt="">
-                        </div>
-                        <div class="containerContent">
-                            <h1 class="title">Neuropsicopedagogia</h1>
-                            <p class="resume">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae nihil odio eum numquam omnis voluptates ipsam rem dolores, consectetur dolorum, enim, natus soluta nam deserunt ipsa quod quis minus. Labore.</p>
-                        </div>
-    
-                        <hr>
-    
-                        <div class="containerInteraction">
-                            <p class="views">3 visualizações</p>
-                            <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike"></button>
-                        </div>
-                    </div>
-                </a>
-            <!-- </a> -->
+            <hr />
 
-            <!-- <a href=""> -->
-                <a href="./post-2.html" class="cardBlog">
-                    <img class="imageCard" src="./img/blog/blog-card-2.webp" alt="" class="imagePrincipal">
-                    <div class="containerInfo">
-                        <div class="containerProfile">
-                            <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile">
-                            <div class="containerName">
-                                <p class="name">Thalia Bianchini</p>
-                                <p class="date">6 de mai. de 2023</p>
-                            </div>
-                            <img class="imgageProfile" src="" alt="">
-                        </div>
-                        <div class="containerContent">
-                            <h1 class="title">Título qualquer</h1>
-                            <p class="resume">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae nihil odio eum numquam omnis voluptates ipsam rem dolores, consectetur dolorum, enim, natus soluta nam deserunt ipsa quod quis minus. Labore.</p>
-                        </div>
-        
-                        <hr>
-        
-                        <div class="containerInteraction">
-                            <p class="views">3 visualizações</p>
-                            <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike"></button>
-                        </div>
-                    </div>
-                </a>
-            <!-- </a> -->
+            <div class="containerInteraction">
+              <p class="views">3 visualizações</p>
+              <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike" /></button>
+            </div>
+          </div>
+        </a>
+        <a href="./post-2.html" class="cardBlog" aria-label="Ver mais" title="Ver mais">
+          <img class="imageCard" src="./img/blog/blog-card-2.png" alt="" class="imagePrincipal" />
+          <div class="containerInfo">
+            <div class="containerProfile">
+              <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile" />
+              <div class="containerName">
+                <p class="name">Thalia Bianchini</p>
+                <p class="date">6 de abril de 2025</p>
+              </div>
+              <img class="imgageProfile" src="" alt="" />
+            </div>
+            <div class="containerContent">
+              <h1 class="title">Programação de Reforço para Ensino de Novos Comportamentos Segundo Cooper</h1>
+              <p class="resume">
+                &nbsp;&nbsp;A programação de reforço, fundamental na ABA, influencia a aprendizagem e manutenção de comportamentos. Cooper et al.
+                (2020) destacam o reforço contínuo, ideal para aquisição, e o intermitente, essencial para consolidação. Os esquemas intermitentes
+                (razão fixa, razão variável, intervalo fixo e variável) garantem maior eficácia e resistência à extinção.
+              </p>
+            </div>
 
-        </div>
+            <hr />
 
-      </section>
-    
+            <div class="containerInteraction">
+              <p class="views">3 visualizações</p>
+              <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike" /></button>
+            </div>
+          </div>
+        </a>
+        <a href="./post-3.html" class="cardBlog" aria-label="Ver mais" title="Ver mais">
+          <img class="imageCard" src="./img/blog/blog-card-3.png" alt="" class="imagePrincipal" />
+          <div class="containerInfo">
+            <div class="containerProfile">
+              <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile" />
+              <div class="containerName">
+                <p class="name">Thalia Bianchini</p>
+                <p class="date">6 de abril de 2025</p>
+              </div>
+              <img class="imgageProfile" src="" alt="" />
+            </div>
+            <div class="containerContent">
+              <h1 class="title">A Neuropsicologia no Transtorno do Espectro Autista (TEA)</h1>
+              <p class="resume">
+                &nbsp;&nbsp;A Neuropsicologia é essencial na compreensão e intervenção do Transtorno do Espectro Autista (TEA), correlacionando
+                funções cognitivas e comportamentais às bases neurobiológicas. Indivíduos com TEA apresentam alterações em funções executivas,
+                atenção, linguagem e habilidades sociais. A avaliação neuropsicológica auxilia no diagnóstico e na criação de intervenções
+                personalizadas, promovendo o desenvolvimento de habilidades por meio da reabilitação cognitiva e estratégias baseadas na
+                neuroplasticidade.
+              </p>
+            </div>
 
-      <div class="copyright">
-        <p>Copyright © Welligthon Darlan.</p>
+            <hr />
+
+            <div class="containerInteraction">
+              <p class="views">3 visualizações</p>
+              <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike" /></button>
+            </div>
+          </div>
+        </a>
+        <a href="./post-4.html" class="cardBlog" aria-label="Ver mais" title="Ver mais">
+          <img class="imageCard" src="./img/blog/blog-card-4.png" alt="" class="imagePrincipal" />
+          <div class="containerInfo">
+            <div class="containerProfile">
+              <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile" />
+              <div class="containerName">
+                <p class="name">Thalia Bianchini</p>
+                <p class="date">6 de abril de 2025</p>
+              </div>
+              <img class="imgageProfile" src="" alt="" />
+            </div>
+            <div class="containerContent">
+              <h1 class="title">Comportamento Verbal e a Importância da Comunicação Alternativa no TEA</h1>
+              <p class="resume">
+                &nbsp;&nbsp;O comportamento verbal, segundo Skinner (1957), abrange diversas formas de comunicação além da fala vocal, como gestos e
+                dispositivos eletrônicos. No TEA, o uso da Comunicação Alternativa e Aumentativa (CAA) é essencial para facilitar a comunicação e
+                reduzir frustrações. Estudos indicam que a CAA não impede o desenvolvimento da fala, mas o estimula, promovendo inclusão social e
+                maior independência. Compreender e aplicar esses recursos amplia as possibilidades de interação e qualidade de vida para indivíduos
+                com dificuldades comunicativas.
+              </p>
+            </div>
+
+            <hr />
+
+            <div class="containerInteraction">
+              <p class="views">3 visualizações</p>
+              <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike" /></button>
+            </div>
+          </div>
+        </a>
+        <a href="./post-5.html" class="cardBlog" aria-label="Ver mais" title="Ver mais">
+          <img class="imageCard" src="./img/blog/blog-card-5.png" alt="" class="imagePrincipal" />
+          <div class="containerInfo">
+            <div class="containerProfile">
+              <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile" />
+              <div class="containerName">
+                <p class="name">Thalia Bianchini</p>
+                <p class="date">6 de abril de 2025</p>
+              </div>
+              <img class="imgageProfile" src="" alt="" />
+            </div>
+            <div class="containerContent">
+              <h1 class="title">Aprendizagem Exige Adaptação: Respeitando a Individualidade na Classe Regular</h1>
+              <p class="resume">
+                &nbsp;&nbsp;A aprendizagem exige adaptação para atender às necessidades individuais dos alunos. No ensino inclusivo, adaptar
+                estratégias é essencial para garantir o direito à educação de qualidade. Métodos como flexibilização curricular, uso de recursos
+                multissensoriais e tecnologia assistiva promovem inclusão e equidade. Professores têm papel fundamental ao identificar dificuldades e
+                oferecer suporte adequado, seguindo princípios de Vygotsky (1984). Adaptar o ensino não é um desafio, mas uma oportunidade de tornar a
+                educação mais acessível e significativa para todos.
+              </p>
+            </div>
+
+            <hr />
+
+            <div class="containerInteraction">
+              <p class="views">3 visualizações</p>
+              <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike" /></button>
+            </div>
+          </div>
+        </a>
+        <a href="./post-6.html" class="cardBlog" aria-label="Ver mais" title="Ver mais">
+          <img class="imageCard" src="./img/blog/blog-card-6.png" alt="" class="imagePrincipal" />
+          <div class="containerInfo">
+            <div class="containerProfile">
+              <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile" />
+              <div class="containerName">
+                <p class="name">Thalia Bianchini</p>
+                <p class="date">6 de abril de 2025</p>
+              </div>
+              <img class="imgageProfile" src="" alt="" />
+            </div>
+            <div class="containerContent">
+              <h1 class="title">Operantes Verbais e o Ensino da Comunicação no TEA</h1>
+              <p class="resume">
+                &nbsp;&nbsp;O texto aborda a importância dos operantes verbais no ensino da comunicação para pessoas com Transtorno do Espectro
+                Autista (TEA). Baseado na Análise do Comportamento Aplicada (ABA) e nas categorias descritas por B.F. Skinner, explica como diferentes
+                operantes, como mando, tato, intraverbal e ecoico, contribuem para o desenvolvimento da linguagem. Além disso, apresenta estratégias
+                práticas para aprimorar a comunicação funcional, destacando o uso de reforçadores e Sistemas Alternativos e Aumentativos de
+                Comunicação (SAAC). O objetivo é promover maior independência e inclusão social para indivíduos com TEA.
+              </p>
+            </div>
+
+            <hr />
+
+            <div class="containerInteraction">
+              <p class="views">3 visualizações</p>
+              <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike" /></button>
+            </div>
+          </div>
+        </a>
+        <a href="./post-7.html" class="cardBlog" aria-label="Ver mais" title="Ver mais">
+          <img class="imageCard" src="./img/blog/blog-card-7.png" alt="" class="imagePrincipal" />
+          <div class="containerInfo">
+            <div class="containerProfile">
+              <img src="./img/photo-thalia-principal-banner.png" alt="" class="imageProfile" />
+              <div class="containerName">
+                <p class="name">Thalia Bianchini</p>
+                <p class="date">6 de abril de 2025</p>
+              </div>
+              <img class="imgageProfile" src="" alt="" />
+            </div>
+            <div class="containerContent">
+              <h1 class="title">Ensino da Escrita no TEA: Estratégias Baseadas em Evidências</h1>
+              <p class="resume">
+                &nbsp;&nbsp;O texto explora estratégias baseadas em evidências para o ensino da escrita a indivíduos com Transtorno do Espectro
+                Autista (TEA). Destaca os desafios enfrentados, como dificuldades motoras e organização do pensamento, e apresenta abordagens
+                eficazes, incluindo tecnologia assistiva, instrução explícita, uso de prompts visuais, prática repetitiva e métodos multissensoriais.
+                A adaptação das estratégias às necessidades individuais é fundamental para promover autonomia e inclusão.
+              </p>
+            </div>
+
+            <hr />
+
+            <div class="containerInteraction">
+              <p class="views">3 visualizações</p>
+              <button class="btnLike"><img src="./img/blog/like.png" alt="" class="imgLike" /></button>
+            </div>
+          </div>
+        </a>
       </div>
+    </section>
+
+    <div class="copyright">
+      <p>Copyright © Welligthon Darlan.</p>
+    </div>
 
     <script src="./navbar.js"></script>
-</body>
+  </body>
 </html>
