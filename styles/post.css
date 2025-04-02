@@ -181,3 +181,83 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  #containerPost {
+    padding: 110px 10% 10px 10%;
+  }
+
+  .contentPost {
+  }
+
+  .border {
+  }
+
+  .containerProfile {
+  }
+
+  .containerName {
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  #containerPost {
+    padding: 110px 20px 10px 20px;
+  }
+}
+@media screen and (min-width: 526px) and (max-width: 768px) {
+  #containerPost {
+    padding: 110px 10px 10px 10px;
+  }
+
+  .contentPost {
+    padding: 20px;
+  }
+
+  .border {
+    padding: 20px;
+  }
+
+  .containerProfile {
+  }
+
+  .containerName {
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 525px) {
+  #containerPost {
+    padding: 110px 10px 10px 10px;
+  }
+
+  .contentPost {
+    padding: 20px;
+  }
+
+  .border {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 425px) {
+  #containerPost {
+    padding: 110px 0px 10px 0px;
+  }
+
+  .contentPost {
+    padding: 4px;
+  }
+
+  .border {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
