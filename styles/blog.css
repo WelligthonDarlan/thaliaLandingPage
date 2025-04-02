@@ -172,11 +172,31 @@ hr {
   }
 
   .contentBlog {
-    padding: 5px;
+    padding: 2px;
     display: flex;
     align-items: start;
+    background-color: transparent;
   }
   .cardBlog {
+    border: 0px solid #000000aa;
+    box-shadow: 2px 2px 8px #00000066;
     width: 100%;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .resume {
+    text-align: justify;
+    padding: 10px;
+    text-align: center;
+  }
+  .imageCard {
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .containerInteraction {
+    display: none;
+  }
+  hr {
+    display: none;
   }
 }
